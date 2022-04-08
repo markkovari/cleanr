@@ -1,6 +1,9 @@
 package main
 
-func main() {
+import (
+	"github.com/markkovari/cleanr/cmd"
+)
 
-  print("Hello from the cleanr")
+func main() {
+	cmd.Execute()
 }
